@@ -384,7 +384,29 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 399658425}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 544010169}
+        m_MethodName: M_SEPlay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 544010165}
+        m_MethodName: RootSceneFadeAndChanging
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &399658425
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -473,7 +495,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -589,8 +611,9 @@ GameObject:
   m_Component:
   - component: {fileID: 544010167}
   - component: {fileID: 544010166}
-  - component: {fileID: 544010165}
   - component: {fileID: 544010168}
+  - component: {fileID: 544010169}
+  - component: {fileID: 544010165}
   m_Layer: 0
   m_Name: manager
   m_TagString: Untagged
@@ -607,9 +630,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 544010164}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1abfff51e04696c4d9fbf722457f1084, type: 3}
+  m_Script: {fileID: 11500000, guid: f09df06ff4ab6d840ba29a72b7c7fab5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dontDestroy: 0
+  scene: 0
 --- !u!114 &544010166
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -623,15 +648,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dontDestroy: 1
-  SectionNumber: 0
   OnChangeScene: 0
-  Bgm:
-  - {fileID: 8300000, guid: 558c125036a0be242a341b3150529ce5, type: 3}
-  - {fileID: 8300000, guid: 7daebfe5e049d7d448ae9ca6454f3b6f, type: 3}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  gameOverFlag: 0
+  gameClearFlag: 0
+  titleFlag: 0
+  ReStartFlag: 0
 --- !u!4 &544010167
 Transform:
   m_ObjectHideFlags: 0
@@ -743,6 +764,26 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &544010169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 544010164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6a596729d5582649a62ed13d1b9e2d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dontDestroy: 0
+  Bgm:
+  - {fileID: 8300000, guid: 558c125036a0be242a341b3150529ce5, type: 3}
+  - {fileID: 8300000, guid: 7daebfe5e049d7d448ae9ca6454f3b6f, type: 3}
+  se:
+  - {fileID: 8300000, guid: a0268059494ce974db23f6d986b48e30, type: 3}
+  - {fileID: 0}
+  SectionNumber: 0
 --- !u!1 &623858807
 GameObject:
   m_ObjectHideFlags: 0
@@ -1141,7 +1182,29 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1345401186}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 544010169}
+        m_MethodName: M_SEPlay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 544010165}
+        m_MethodName: RootSceneFadeAndChanging
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1345401186
 MonoBehaviour:
   m_ObjectHideFlags: 0

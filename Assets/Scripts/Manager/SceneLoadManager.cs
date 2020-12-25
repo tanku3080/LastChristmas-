@@ -11,10 +11,11 @@ public class SceneLoadManager : Singleton<SceneLoadManager>
     {
         Taitle, Setsumei, GamePlay, GameOvar, GameClear,
     }
-    public SceneName scene;
+    [HideInInspector] public SceneName scene;
     CanvasGroup group = null;
     string sceneName = null;
     float timer = 0;
+    bool t = true;
 
     void Start()
     {
@@ -26,10 +27,14 @@ public class SceneLoadManager : Singleton<SceneLoadManager>
     private void Update()
     {
         timer += Time.deltaTime;
+        if (t)
+        {
+            RootSceneFadeAndChanging();
+        }
     }
 
     /// <summary>
-    /// シーンの切り替えとフェードを行う関数
+    /// 好きなシーンの切り替えとフェードを行う関数
     /// </summary>
     /// <param name="name">遷移先のシーンを選択</param>
     /// <param name="fadeStart">trueならフェードありfalseはフェード無し</param>
@@ -40,13 +45,17 @@ public class SceneLoadManager : Singleton<SceneLoadManager>
         if (fadeStart)
         {
             //0.0005はmeetingに使うとちょうどいいかも？
-            if (group.alpha >= 0)//透明化する
+            if (group.alpha > 0)//透明化する
             {
                 group.alpha -= timer * fadeInterval;
             }
-            else//あらわれる
+            else if(group.alpha < 0)//あらわれる
             {
                 group.alpha += timer * fadeInterval;
+            }
+            else //ゼロなら
+            {
+                GameManager.Instance.OnChangeScene = true;
             }
         }
         if (sceneChangeStart)
@@ -56,5 +65,47 @@ public class SceneLoadManager : Singleton<SceneLoadManager>
             SceneManager.LoadScene(sceneName);
         }
         else return;
+    }
+
+    /// <summary>
+    /// 呼び出されるだけでシーンに応じて次のシーン遷移とフェードが行われる関数
+    /// </summary>
+    public void RootSceneFadeAndChanging()
+    {
+        float fadeInterval = 0.05f;
+        //0.0005はmeetingに使うとちょうどいいかも？
+        if (group.alpha > 0)//透明化する
+        {
+            group.alpha -= timer * fadeInterval;
+        }
+        else if (group.alpha < 0)//あらわれる
+        {
+            group.alpha += timer * fadeInterval;
+        }
+        else //ゼロなら
+        {
+            switch (scene)
+            {
+                case SceneName.Taitle:
+                    sceneName = "Setsumei";
+                    break;
+                case SceneName.Setsumei:
+                    sceneName = "GamePlay";
+                    break;
+                case SceneName.GamePlay:
+                    if (GameManager.Instance.gameClearFlag) sceneName = "GameClear";
+                    if (GameManager.Instance.gameOverFlag) sceneName = "GameOvar";
+                    break;
+                case SceneName.GameOvar:
+                    if (GameManager.Instance.titleFlag) sceneName = "Taitle";
+                    if (GameManager.Instance.ReStartFlag) sceneName = "GamePlay";
+                    break;
+                case SceneName.GameClear:
+                    if (GameManager.Instance.titleFlag) sceneName = "Taitle";
+                    break;
+            }
+            SceneManager.LoadScene(sceneName);
+            t = false;
+        }
     }
 }
