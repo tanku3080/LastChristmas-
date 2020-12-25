@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Atlas_Die
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 21300000, guid: 2235e1a2be3089349b9eaa4afd9ba9df, type: 3}
+    - {fileID: 21300000, guid: 5f0c90eeda0c11a4388903887db0a102, type: 3}
+    - {fileID: 21300000, guid: 686603386fd362b479db2a194eb3d76e, type: 3}
+    - {fileID: 21300000, guid: d14d47bddd0c3d143848856009a08646, type: 3}
+    - {fileID: 21300000, guid: 952d66bfe41f95448ab16117803de66c, type: 3}
+    - {fileID: 21300000, guid: 1e1578e4d870a0e47a8a62b783f051b3, type: 3}
+    - {fileID: 21300000, guid: 04de755d638b7e24e8a98be0606a1d65, type: 3}
+    - {fileID: 21300000, guid: 7846d2be20e048c4388e7010cd8166c6, type: 3}
+    - {fileID: 21300000, guid: 942674cd97e67524ab7846850ee70b55, type: 3}
+    - {fileID: 21300000, guid: 110fe196900e6a4459ab6eb44b5c172a, type: 3}
+    - {fileID: 21300000, guid: 001aa8b907b7d0f44a7ffa736907f753, type: 3}
+    - {fileID: 21300000, guid: a0be0432a58ae2448b1407b99d162fd0, type: 3}
+    - {fileID: 21300000, guid: 377776fd5c877724fa59f4d805e6668c, type: 3}
+    - {fileID: 21300000, guid: eb3dc88f3e0948d4d9f34f444f4f3e36, type: 3}
+    - {fileID: 21300000, guid: ed8ab51e45e03b34db44d5edf11dfaa1, type: 3}
+    - {fileID: 21300000, guid: 3feec7db11abf9d4fa2203b39c559ec3, type: 3}
+    - {fileID: 21300000, guid: bd130828e0cfafa49b95a95c89554d58, type: 3}
+    totalSpriteSurfaceArea: 10177798
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: a0be0432a58ae2448b1407b99d162fd0, type: 3}
+  - {fileID: 21300000, guid: 2235e1a2be3089349b9eaa4afd9ba9df, type: 3}
+  - {fileID: 21300000, guid: 1e1578e4d870a0e47a8a62b783f051b3, type: 3}
+  - {fileID: 21300000, guid: 110fe196900e6a4459ab6eb44b5c172a, type: 3}
+  - {fileID: 21300000, guid: bd130828e0cfafa49b95a95c89554d58, type: 3}
+  - {fileID: 21300000, guid: 686603386fd362b479db2a194eb3d76e, type: 3}
+  - {fileID: 21300000, guid: 001aa8b907b7d0f44a7ffa736907f753, type: 3}
+  - {fileID: 21300000, guid: 3feec7db11abf9d4fa2203b39c559ec3, type: 3}
+  - {fileID: 21300000, guid: 04de755d638b7e24e8a98be0606a1d65, type: 3}
+  - {fileID: 21300000, guid: d14d47bddd0c3d143848856009a08646, type: 3}
+  - {fileID: 21300000, guid: 942674cd97e67524ab7846850ee70b55, type: 3}
+  - {fileID: 21300000, guid: 377776fd5c877724fa59f4d805e6668c, type: 3}
+  - {fileID: 21300000, guid: ed8ab51e45e03b34db44d5edf11dfaa1, type: 3}
+  - {fileID: 21300000, guid: 7846d2be20e048c4388e7010cd8166c6, type: 3}
+  - {fileID: 21300000, guid: 5f0c90eeda0c11a4388903887db0a102, type: 3}
+  - {fileID: 21300000, guid: eb3dc88f3e0948d4d9f34f444f4f3e36, type: 3}
+  - {fileID: 21300000, guid: 952d66bfe41f95448ab16117803de66c, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Dead (12)
+  - Dead (1)
+  - Dead (6)
+  - Dead (10)
+  - Dead (17)
+  - Dead (3)
+  - Dead (11)
+  - Dead (16)
+  - Dead (7)
+  - Dead (4)
+  - Dead (9)
+  - Dead (13)
+  - Dead (15)
+  - Dead (8)
+  - Dead (2)
+  - Dead (14)
+  - Dead (5)
+  m_Tag: Atlas_Die
+  m_IsVariant: 0

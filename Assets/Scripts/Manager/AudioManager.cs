@@ -66,7 +66,7 @@ public class AudioManager : Singleton<AudioManager>
         {
             SectionNumber = 2;
         }
-        if (nowScene == SceneLoadManager.SceneName.GamePlay.ToString())
+        if (nowScene == SceneLoadManager.SceneName.Game.ToString())
         {
             SectionNumber = 3;
         }

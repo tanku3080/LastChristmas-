@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Atlas_Walk
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 30ec527f19614ac44b65990069ab28f5, type: 3}
+    - {fileID: 2800000, guid: 8b8a7af54512ec341bbacbf05de5ab0e, type: 3}
+    - {fileID: 2800000, guid: f9585b1a2f242e04285ae80b3a54b5cc, type: 3}
+    - {fileID: 2800000, guid: 7e1dfc362a1b83f48870e1821c851aa8, type: 3}
+    - {fileID: 2800000, guid: 4a14f8bbebf4bb444a253281bbbbe8a9, type: 3}
+    - {fileID: 2800000, guid: 69da67f12bdcb1741b2f2584f24bb84e, type: 3}
+    - {fileID: 2800000, guid: 2c11699bbdb4a9242bf719c398eb593f, type: 3}
+    - {fileID: 2800000, guid: 4fbaf4cec8ec82a4ea7d939f69b7ed94, type: 3}
+    - {fileID: 2800000, guid: bfe9026b457c66941a2a0a137b3412a8, type: 3}
+    - {fileID: 2800000, guid: c28f391020dad5940b04cbf476813235, type: 3}
+    - {fileID: 2800000, guid: 876bf10b15a44ec46967833bc3134a84, type: 3}
+    - {fileID: 2800000, guid: 8ccd03665f459ba4c9f8a852f7aa3d69, type: 3}
+    - {fileID: 2800000, guid: 4f00cc144df65da47a629ab7eb1e51a6, type: 3}
+    totalSpriteSurfaceArea: 7783022
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: c28f391020dad5940b04cbf476813235, type: 3}
+  - {fileID: 21300000, guid: 69da67f12bdcb1741b2f2584f24bb84e, type: 3}
+  - {fileID: 21300000, guid: 4f00cc144df65da47a629ab7eb1e51a6, type: 3}
+  - {fileID: 21300000, guid: 8b8a7af54512ec341bbacbf05de5ab0e, type: 3}
+  - {fileID: 21300000, guid: 7e1dfc362a1b83f48870e1821c851aa8, type: 3}
+  - {fileID: 21300000, guid: 8ccd03665f459ba4c9f8a852f7aa3d69, type: 3}
+  - {fileID: 21300000, guid: f9585b1a2f242e04285ae80b3a54b5cc, type: 3}
+  - {fileID: 21300000, guid: 876bf10b15a44ec46967833bc3134a84, type: 3}
+  - {fileID: 21300000, guid: bfe9026b457c66941a2a0a137b3412a8, type: 3}
+  - {fileID: 21300000, guid: 2c11699bbdb4a9242bf719c398eb593f, type: 3}
+  - {fileID: 21300000, guid: 4a14f8bbebf4bb444a253281bbbbe8a9, type: 3}
+  - {fileID: 21300000, guid: 4fbaf4cec8ec82a4ea7d939f69b7ed94, type: 3}
+  - {fileID: 21300000, guid: 30ec527f19614ac44b65990069ab28f5, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Walk (10)
+  - Walk (6)
+  - Walk (13)
+  - Walk (2)
+  - Walk (4)
+  - Walk (12)
+  - Walk (3)
+  - Walk (11)
+  - Walk (9)
+  - Walk (7)
+  - Walk (5)
+  - Walk (8)
+  - Walk (1)
+  m_Tag: Atlas_Walk
+  m_IsVariant: 0

@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Atlas_Jump
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 348876a123d1a6942a8ed452a196a7d9, type: 3}
+    - {fileID: 2800000, guid: 3e8b29b0b6ce1a548a78722aa6b439f0, type: 3}
+    - {fileID: 2800000, guid: fdcf923625012544399fcfe28ed5efa7, type: 3}
+    - {fileID: 2800000, guid: 2526fe61caf6e6040bcc0082971ec59f, type: 3}
+    - {fileID: 2800000, guid: 85c777486964f4845a410b76eff67787, type: 3}
+    - {fileID: 2800000, guid: c8ae2b7036e2f2b4f92db6b143dfbe0a, type: 3}
+    - {fileID: 2800000, guid: a3000235adeb73947ae3ed60fc1870c3, type: 3}
+    - {fileID: 2800000, guid: 2fd42364ff85a5048b29498343970a6b, type: 3}
+    - {fileID: 2800000, guid: ba6deb7c9cf9b6540816321797862a8c, type: 3}
+    - {fileID: 2800000, guid: 29b9fce5c85e7e448a0e1620552e6c83, type: 3}
+    - {fileID: 2800000, guid: 13e00fde46f0e2e43a887835a7822d3f, type: 3}
+    - {fileID: 2800000, guid: b1f175b28bc225347ac8fe572c001e3b, type: 3}
+    - {fileID: 2800000, guid: eb63ecc88ff285e408a8162a971b00be, type: 3}
+    - {fileID: 2800000, guid: 1c13ed7234e687a43ae2a3f738d24789, type: 3}
+    - {fileID: 2800000, guid: 4d50cd8a86319f74b96632f51da4ea7a, type: 3}
+    - {fileID: 2800000, guid: 5be95ebcf76965342ad13ae5a50cef52, type: 3}
+    totalSpriteSurfaceArea: 9579104
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: c8ae2b7036e2f2b4f92db6b143dfbe0a, type: 3}
+  - {fileID: 21300000, guid: 3e8b29b0b6ce1a548a78722aa6b439f0, type: 3}
+  - {fileID: 21300000, guid: 2526fe61caf6e6040bcc0082971ec59f, type: 3}
+  - {fileID: 21300000, guid: 348876a123d1a6942a8ed452a196a7d9, type: 3}
+  - {fileID: 21300000, guid: 1c13ed7234e687a43ae2a3f738d24789, type: 3}
+  - {fileID: 21300000, guid: b1f175b28bc225347ac8fe572c001e3b, type: 3}
+  - {fileID: 21300000, guid: 2fd42364ff85a5048b29498343970a6b, type: 3}
+  - {fileID: 21300000, guid: a3000235adeb73947ae3ed60fc1870c3, type: 3}
+  - {fileID: 21300000, guid: 29b9fce5c85e7e448a0e1620552e6c83, type: 3}
+  - {fileID: 21300000, guid: fdcf923625012544399fcfe28ed5efa7, type: 3}
+  - {fileID: 21300000, guid: 85c777486964f4845a410b76eff67787, type: 3}
+  - {fileID: 21300000, guid: eb63ecc88ff285e408a8162a971b00be, type: 3}
+  - {fileID: 21300000, guid: 4d50cd8a86319f74b96632f51da4ea7a, type: 3}
+  - {fileID: 21300000, guid: ba6deb7c9cf9b6540816321797862a8c, type: 3}
+  - {fileID: 21300000, guid: 5be95ebcf76965342ad13ae5a50cef52, type: 3}
+  - {fileID: 21300000, guid: 13e00fde46f0e2e43a887835a7822d3f, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Jump (6)
+  - Jump (2)
+  - Jump (4)
+  - Jump (1)
+  - Jump (14)
+  - Jump (12)
+  - Jump (8)
+  - Jump (7)
+  - Jump (10)
+  - Jump (3)
+  - Jump (5)
+  - Jump (13)
+  - Jump (15)
+  - Jump (9)
+  - Jump (16)
+  - Jump (11)
+  m_Tag: Atlas_Jump
+  m_IsVariant: 0

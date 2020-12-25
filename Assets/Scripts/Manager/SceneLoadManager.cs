@@ -9,7 +9,7 @@ public class SceneLoadManager : Singleton<SceneLoadManager>
 {
     public enum SceneName
     {
-        Taitle, Setsumei, GamePlay, GameOvar, GameClear,
+        Taitle, Setsumei, Game, GameOvar, GameClear,
     }
     [HideInInspector] public SceneName scene;
     CanvasGroup group = null;
@@ -92,7 +92,7 @@ public class SceneLoadManager : Singleton<SceneLoadManager>
                 case SceneName.Setsumei:
                     sceneName = "GamePlay";
                     break;
-                case SceneName.GamePlay:
+                case SceneName.Game:
                     if (GameManager.Instance.gameClearFlag) sceneName = "GameClear";
                     if (GameManager.Instance.gameOverFlag) sceneName = "GameOvar";
                     break;
